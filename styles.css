@@ -65,9 +65,7 @@ img{
     max-width: 70%;
     margin-left: 3.3rem;
 }
-.tabla__naciones{
-    align-content: center;
-}
+
 .estado{
     display: flex;
 }
@@ -86,6 +84,18 @@ img{
     background-color: #f87c14;
     margin: 2rem  0;   
 }
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 2rem;
+    min-width: 15rem;
+    text-align: center;
+}
+nav a:hover{
+    color: #f87c14;
+    background-color: #ffffff;
+}
 .boton{
     text-decoration: none;
     color: #ffffff;
@@ -99,15 +109,3 @@ img{
     background-color: #ffffff;
 }
 
-nav a{
-    text-decoration: none;
-    color: #ffffff;
-    padding: 1rem;
-    font-size: 2rem;
-    min-width: 15rem;
-    text-align: center;
-}
-nav a:hover{
-    color: #f87c14;
-    background-color: #ffffff;
-}
