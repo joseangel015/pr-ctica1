@@ -57,10 +57,15 @@ img{
     align-content: center;
     margin-left: 1rem;
 }
+
 .tabla__padding{
     padding:1.5rem;
 }
-
+.carrusel{
+    background-color: #F0F1F3;
+    width: 50%;
+    margin: 0 auto;
+}
 .img__tabla__naciones{
     max-width: 70%;
     margin-left: 3.3rem;
