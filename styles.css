@@ -61,11 +61,7 @@ img{
 .tabla__padding{
     padding:1.5rem;
 }
-.carrusel{
-    background-color: #F0F1F3;
-    width: 50%;
-    margin: 0 auto;
-}
+
 .img__tabla__naciones{
     max-width: 70%;
     margin-left: 3.3rem;
@@ -114,3 +110,60 @@ nav a:hover{
     background-color: #ffffff;
 }
 
+/* Carrusel con Bootstrap */
+.carrusel{
+    background-color: #F0F1F3;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*Botones flotantes*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   #btn-mas{
+    display: none;
+   }
+   .navegacion-flotante{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+   }
+   .navegacion-flotante .redes a, .btn-mas .icon {
+    display: block;
+    text-decoration: none;
+    background: #f87c14;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+   }
+   .redes a:hover{
+    background: #fff;
+    color: #f87c14;
+   }
+   .btn-mas .icon{
+    margin: 15px;
+    cursor: pointer;
+    background: #f87c14;
+    font-size: 20px;
+   }
+   .redes a{
+    margin: 5px;
+    opacity: 0;
+    visibility: hidden;
+   }
+   #btn-mas:checked ~ .redes a{ margin-bottom: 5px;
+    opacity: 1;
+    visibility: visible;
+   } 
+   #btn-mas:checked ~ .btn-mas .icon{
+    transform: rotate(137deg);
+    font-size: 25px;
+   
