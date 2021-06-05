@@ -6,7 +6,6 @@ body{
     font-size: 16px;
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, #DFE9F3 0%,#ffffff 100%);
-    
 }
 h1{
     margin-bottom: 2rem;
@@ -34,9 +33,12 @@ img{
     max-width: 25rem;
     max-height: 20rem;
 }
+.bg-loto{
+    background-image: linear-gradient(to top, #ff5638 0%,#ffffff 100%);
+}
 .contenedor{
-    margin: 0 25rem;
-    margin-top: 2rem;
+    margin: 2rem 25rem; 
+    
 }
 .negritas{
     font-weight: 700;
@@ -47,6 +49,7 @@ img{
     padding: 2rem;
     border-radius: 1rem;
 }
+
 .alinear-centro{
     text-align: center;
 }
@@ -222,4 +225,16 @@ nav a:hover{
 }
 .galeria img:hover{
     border: 0.5rem solid #f7f7f7;
+}
+
+/* Video como fondo de pantalla */
+video{
+    
+    max-width: 100%;
+    min-height: 40rem;
+    margin: 0 auto;
+    z-index: -1;
+}
+.img-loto{
+    margin: 2rem 63rem;
 }
