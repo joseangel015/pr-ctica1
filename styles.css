@@ -50,6 +50,7 @@ img{
 .alinear-centro{
     text-align: center;
 }
+
 .alinear-img-centro{
     margin: 0;
     align-items: center;
@@ -104,6 +105,9 @@ nav a:hover{
     font-weight: 700;
     padding: 1rem 2rem;
     border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 .boton:hover{
     color: #f87c14;
@@ -205,4 +209,17 @@ nav a:hover{
 .menu li:hover .submenu{
     visibility: visible;
     opacity: 1;
+}
+
+/* Galería con Bootstrap */
+.galeria .col-lg-4{
+    padding: 2.5rem;
+    margin: 0;
+}
+.galeria img{
+    width: 100%;
+    height: 25rem;
+}
+.galeria img:hover{
+    border: 0.5rem solid #f7f7f7;
 }
