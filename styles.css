@@ -238,3 +238,20 @@ video{
 .img-loto{
     margin: 2rem 63rem;
 }
+
+/* Animacion */
+.animacion{
+    animation-name: animar;
+    animation-duration: 10s;
+    animation-delay: 0;
+    
+}
+
+@keyframes animar{
+    0%{
+        transform: scale(.5);
+    }
+    20%{
+        transform: rotate(-360deg);
+    }
+}
