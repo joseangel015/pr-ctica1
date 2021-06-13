@@ -347,3 +347,12 @@ video{
     display: flex;
     justify-content: flex-end;
 }
+
+
+/* Barras de progreso */
+.bg-naranja{
+    background-color: #f87c14;
+}
+.margin-t-b{
+    margin: 2rem;
+}
