@@ -40,9 +40,9 @@
 
     <!-- Navegación con botones fijos -->
     <nav class="navegacion">
-        <a href="https://www.netflix.com/mx/title/70142405" data-toggle="popover" data-trigger="focus" title="Velo en Netflix" data-content="Ve las 3 temporadas de la leyenda de Aang en Netflix"><i class="bi bi-play-btn"></i>&nbsp;Ver Ahora</a>
+        <a href="https://www.netflix.com/mx/title/70142405" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover" title="Velo en Netflix" data-bs-content="Ve las tres temporadas completas Ahora"><i class="bi bi-play-btn"></i>&nbsp;Ver Ahora</a>
         <ul class="menu">
-            <li><a href="#"><i class="bi bi-plus-square-fill pop-over"></i> &nbsp;Mas detalles</a>
+            <li><a href="#"><i class="bi bi-plus-square-fill"></i> &nbsp;Mas detalles</a>
                 <ul class="submenu">
                     <li><a class="a-submenu" href="https://avatar.fandom.com/es/wiki/Avatar#:~:text=Equipo%20Avatar%20de%20Aang%3A%20Aang,%2C%20Suki%2C%20Toph%20Beifong%2C%20Zuko"><i class="bi bi-person"></i> Fandom</a></li>
                     <li><a class="a-submenu" href="loto.html"><i class="bi bi-flower1"></i> El Loto Blanco</a></li>
@@ -54,7 +54,7 @@
     <!-- Contenedor -->
 
     <div class="contenedor sombra">
-       
+      
         <h2 class="alinear-centro">¿Qué es Avatar?</h2>
         <p>Avatar: La leyenda de Aang3​ (en inglés, Avatar: The Last Airbender) 
         es una serie animada creada por Michael Dante DiMartino y Bryan Konietzko, con Aaron Ehasz como escritor principal.
@@ -251,6 +251,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+    <!-- Barra de progreso -->
     <script>
         function move(){
             var elem = document.getElementById("myBar");
@@ -265,6 +267,14 @@
                 }
             }
         }
+    </script>
+
+    <!-- Popovers -->
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
     </script>
 
     
